@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+  height: 30px;
+  * {
+    flex: 0 0 30%;
+  }
+  background-color: black;
+  button {
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+  }
+}
