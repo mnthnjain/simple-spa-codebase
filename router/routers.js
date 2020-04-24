@@ -45,9 +45,9 @@ Router.prototype = {
   },
   goToRoute: function (route) {
     (function (scope) {
-      if (window.unloadComponent) {
-        window.unloadComponent();
-        delete window.unloadComponent;
+      if (window.onComponentUnload) {
+        window.onComponentUnload();
+        delete window.onComponentUnload;
       }
       scope.rootElem.innerHTML = route.component(route);
       if (window.onComponentLoad) {

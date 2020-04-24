@@ -15,7 +15,7 @@ export default function component1() {
     timerFunction = setInterval(updateTime, 1000);
   };
 
-  window.unloadComponent = () => {
+  window.onComponentUnload = () => {
     timeOnPage = 0;
     clearInterval(timerFunction);
   };

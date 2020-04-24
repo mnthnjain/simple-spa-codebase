@@ -2,5 +2,7 @@
 export const appData = {};
 
 export function alertPageOnClick() {
-  alert("allert from component 2 js file");
+  alert(
+    "checkout the services/index.js file to understand how to invoke js from html"
+  );
 }

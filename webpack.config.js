@@ -9,7 +9,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Tata Digital Login",
+      title: "Simple SPA",
       template: "index.html",
     }),
   ],
