@@ -1,14 +1,13 @@
 import "./component2.scss";
 import template from "./component2.html";
+import { alertPageOnClick } from "../../services";
 
 let timeOnPage = 0;
 let timerFunction;
 
 export default function component1() {
   window.callbacks.component1 = {
-    notifyForPageLoad: () => {
-      alert("allert from component 2 js file");
-    },
+    notifyForPageLoad: alertPageOnClick,
   };
 
   window.onComponentLoad = () => {

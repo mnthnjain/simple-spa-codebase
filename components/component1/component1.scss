@@ -1,4 +1,15 @@
 .component1 {
   // add your component 1 css here
   text-align: center;
+  a {
+    color: wheat !important;
+  }
+  .descriptions {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    h3 {
+      text-decoration: underline;
+    }
+  }
 }

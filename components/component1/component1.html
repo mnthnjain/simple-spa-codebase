@@ -1,12 +1,62 @@
 <app-header></app-header>
 <div class="container component1">
-  Hi Welcome to this simple boilerplate to kickstart a lightweight SPA
+  Hi Welcome to this simple boilerplate codebase to kickstart a lightweight SPA
   <br />
   <br />
-  click on component 2 in header above and checkout the components/component2
-  <br />
+  click on component 2 in header above and checkout the
+  <span>
+    <a
+      href="https://github.com/mnthnjain/simple-spa-codebase/tree/master/components/component2"
+      target="_blank"
+      >components/component2</a
+    ></span
+  >
   to know how js is interacting with html
   <br />
   <br />
   Refer to the Readme.md to for more understanding of this codebase
+
+  <div class="descriptions">
+    <h3>
+      Comparison
+    </h3>
+    <p>
+      Big players like the Angular, React.js or Vue.js minimum final bundle size
+      is of more than 130kb containing nothing.
+      <br />
+      This webpage you are looking at is of just 9kb final bundle
+      size(bundle.js). which leaves no comparison on that end
+    </p>
+    <br />
+    <h3>
+      When to use this codebase
+    </h3>
+    <p>
+      <!-- i deploved this approach when i was building a SSO as a service. where
+      there was a requirement of some pages containing forms for taking user
+      inputs like Username, Phone Number, OTP on someother page user details
+      another page and password on one more page
+      <br />
+      <br />
+      So overall there was requirement to render some 5-6 simple pages to get
+      users informations
+      <br />
+      In starting i thought of genrate simple js, html and css for every page
+      and then calling the next page one by one. i Felt that approach will
+      actually make more network calls for fetching pages with their css and
+      javascript, and also the there will be alot of code duplicacy for mainting
+      some common functionality and following the visual designs
+
+      <br> -->
+      If you are building a website for simple usecase like showing simple html
+      pages, or like websites to show some forms for getting users informations,
+      etc.
+      <br />
+      basically where you are developing simple websites which needs to be
+      SPA(Single Page Application) supporting CSR(Client Side Rendering) but
+      Shadow rendering(virtual dom) or complex data flow is not required
+      <br />
+    </p>
+  </div>
+  <p></p>
 </div>
