@@ -1,10 +1,18 @@
 # simple-spa-codebase
-Simple codebase to crate your own SPA without heavy framework like Angular, React etc, instead using simple vanilla js and webpack to build it to one js file
+Simple codebase to create your own SPA without heavy framework like Angular, React etc, instead using simple vanilla js and webpack to build it to one js file
 
 Before Reading further please checkout this demo url to know why and when to use this type of approach for your website
 
 **DEMO** [SIMPLE-SPA-CODEBASE](https://mnthnjain.github.io/simple-spa-codebase/)
 
+## Comparison
+Big players like the Angular, React.js or Vue.js minimum final bundle size is of more than 130kb containing nothing.
+This webpage you are looking at is of just 9kb final bundle size(bundle.js). which leaves no comparison on that end
+
+
+## When to use this codebase
+If you are building a website for simple usecase like showing simple html pages, or like websites to show some forms for getting users informations, etc.
+basically where you are developing simple websites which needs to be SPA(Single Page Application) supporting CSR(Client Side Rendering) but Shadow rendering(virtual dom) or complex data flow is not required
 
 
 ## Installation
